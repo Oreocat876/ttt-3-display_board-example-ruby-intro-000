@@ -3,7 +3,8 @@ def display_board
   row_1 = "   " + "|" + "   " + "|" + "   "
   row_2 = "   " + "|" + "   " + "|" + "   "
   row_3 = "   " + "|" + "   " + "|" + "   "
-  puts "#{row_1}\n#{row_2}\n#{row_3}"
+  a = "-----------"
+  puts "#{row_1}\n#{a}\n#{row_2}\n#{a}\n#{row_3}"
 end
 
 display_board
